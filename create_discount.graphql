@@ -1,0 +1,25 @@
+mutation {
+  discountAutomaticAppCreate(
+    automaticAppDiscount: {
+      title: "Tiered Quantity Discount"
+      functionHandle: "tiered-quantity-discount"
+      discountClasses: [PRODUCT]
+      startsAt: "2025-01-01T00:00:00Z"
+      combinesWith: {
+        productDiscounts: true
+        orderDiscounts: true
+        shippingDiscounts: true
+      }
+    }
+  ) {
+    automaticAppDiscount {
+      discountId
+      title
+      status
+    }
+    userErrors {
+      field
+      message
+    }
+  }
+}

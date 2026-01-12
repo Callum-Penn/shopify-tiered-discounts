@@ -1,0 +1,23 @@
+api_version = "2025-04"
+
+[[extensions]]
+name = "t:name"
+handle = "tiered-quantity-discount"
+type = "function"
+uid = "6750bdfc-bf31-8e5a-9aca-b47c413febc91996576f"
+description = "t:description"
+
+  [[extensions.targeting]]
+  target = "cart.lines.discounts.generate.run"
+  input_query = "src/cart_lines_discounts_generate_run.graphql"
+  export = "cart_lines_discounts_generate_run"
+
+  [[extensions.targeting]]
+  target = "cart.delivery-options.discounts.generate.run"
+  input_query = "src/cart_delivery_options_discounts_generate_run.graphql"
+  export = "cart_delivery_options_discounts_generate_run"
+
+  [extensions.build]
+  command = "cargo build --target=wasm32-unknown-unknown --release"
+  path = "target/wasm32-unknown-unknown/release/tiered-quantity-discount.wasm"
+  watch = [ "src/**/*.rs" ]

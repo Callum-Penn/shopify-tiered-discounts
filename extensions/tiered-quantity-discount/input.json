@@ -1,0 +1,19 @@
+{
+  "cart": {
+    "lines": [
+      {
+        "id": "gid://shopify/CartLine/1",
+        "quantity": 5,
+        "cost": {
+          "amountPerQuantity": {
+            "amount": "3.83"
+          }
+        },
+        "merchandise": {
+          "__typename": "ProductVariant",
+          "id": "gid://shopify/ProductVariant/1"
+        }
+      }
+    ]
+  }
+}
