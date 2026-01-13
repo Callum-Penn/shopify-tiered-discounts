@@ -49,6 +49,7 @@ This app uses a **Shopify Function** (written in Rust) to automatically apply di
 - `shopify.app.toml` - App configuration
 - `SETUP_AND_TEST.md` - Setup and testing instructions
 - `DEPLOYMENT.md` - Production deployment guide
+- `DIGITAL_OCEAN_SETUP.md` - Digital Ocean server setup guide
 - `GIT_SETUP.md` - Git repository setup guide
 
 ## Quick Start
@@ -59,6 +60,7 @@ See [SETUP_AND_TEST.md](./SETUP_AND_TEST.md) for detailed setup instructions.
 
 - [Setup and Testing Guide](./SETUP_AND_TEST.md) - How to set up and test the discount
 - [Deployment Guide](./DEPLOYMENT.md) - How to deploy to production
+- [Digital Ocean Setup Guide](./DIGITAL_OCEAN_SETUP.md) - Complete walkthrough for deploying to Digital Ocean
 - [Git Setup Guide](./GIT_SETUP.md) - How to set up version control
 
 ## Benefits

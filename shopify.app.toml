@@ -2,7 +2,7 @@
 
 client_id = "21ab53edd1a6d31de9d707a72a90da36"
 name = "Tiered Discounts"
-application_url = "https://example.com"
+application_url = "https://tiered-discounts.ddns.net"
 embedded = true
 
 [build]
@@ -16,5 +16,5 @@ api_version = "2026-04"
 scopes = "write_products,write_discounts,read_discounts"
 
 [auth]
-redirect_urls = [ "https://example.com/api/auth" ]
+redirect_urls = [ "https://tiered-discounts.ddns.net/api/auth" ]
 

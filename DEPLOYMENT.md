@@ -1,5 +1,7 @@
 # Production Deployment Guide
 
+> **For Digital Ocean deployment**: See [DIGITAL_OCEAN_SETUP.md](./DIGITAL_OCEAN_SETUP.md) for a complete step-by-step guide on setting up your server.
+
 ## Prerequisites
 
 Before deploying to production, ensure:
